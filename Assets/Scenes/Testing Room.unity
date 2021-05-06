@@ -2897,6 +2897,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8fc1eb0f97e2cff48aa1ff7a5f3d6b86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Stair: {fileID: 1727150609}
+  Trigger: {fileID: 1534166770}
 --- !u!61 &1534166773
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2993,6 +2995,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8fc1eb0f97e2cff48aa1ff7a5f3d6b86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Stair: {fileID: 763316473}
+  Trigger: {fileID: 1606003488}
 --- !u!1 &1648062700
 GameObject:
   m_ObjectHideFlags: 0
@@ -3149,7 +3153,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textbox: {fileID: 2086296086}
   image: {fileID: 1057015586}
-  cointextbox: {fileID: 0}
 --- !u!4 &1660570871
 Transform:
   m_ObjectHideFlags: 0
