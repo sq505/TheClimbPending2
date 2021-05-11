@@ -4,16 +4,17 @@ using UnityEngine;
 
 public class DisplayText : MonoBehaviour
 {
-    
 
     public List<string> messages = new List<string>();
     private int currentmessage;
     bool inTrigger = false;
+    public GameObject Light;
 
     // Start is called before the first frame update
     void Start()
     {
         currentmessage = 0;
+        Light.SetActive(false);
     }
 
     // Update is called once per frame
@@ -41,10 +42,12 @@ public class DisplayText : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         inTrigger = true;
+        Light.SetActive(true);
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        inTrigger = false;       
+        inTrigger = false;
+        Light.SetActive(false);
     }
 }
