@@ -37,12 +37,6 @@ public class DisplayText : MonoBehaviour
                 }
             }
         }
-        else
-        {
-            GameManager.MainTextbox.text = "";
-            GameManager.MainTextBoxImage.gameObject.SetActive(false);
-            currentmessage = 0;
-        }
     }
     private void OnTriggerEnter2D(Collider2D other)
     {

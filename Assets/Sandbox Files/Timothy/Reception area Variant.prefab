@@ -1509,7 +1509,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8526002625406754185, guid: fd053bb9e903d26498ac1fa1888856ea, type: 3}
       propertyPath: m_Name
-      value: Reception area
+      value: Reception area Variant
       objectReference: {fileID: 0}
     - target: {fileID: 8526002625406754188, guid: fd053bb9e903d26498ac1fa1888856ea, type: 3}
       propertyPath: m_DynamicOccludee
