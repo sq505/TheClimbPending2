@@ -15,6 +15,7 @@ public class DisplayCutscene : MonoBehaviour
     void Start()
     {
         currentmessage = 0;
+        CutsceneIndicator.SetActive(false);
     }
 
     // Update is called once per frame
@@ -30,15 +31,13 @@ public class DisplayCutscene : MonoBehaviour
                     currentmessage++;
                     GameManager.MainTextBoxImage.gameObject.SetActive(true);
                     cutscenecharacters.SetActive(true);
-                    CutsceneIndicator.SetActive(false);
                 }
                 else
                 {
                     GameManager.MainTextbox.text = "";
                     GameManager.MainTextBoxImage.gameObject.SetActive(false);
                     currentmessage = 0;
-                    cutscenecharacters.SetActive(false);
-                    CutsceneIndicator.SetActive(true);
+                    cutscenecharacters.SetActive(false);                    
                 }
             }
         }
