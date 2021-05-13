@@ -8,6 +8,11 @@ public class DisplayTimelineCutscene : MonoBehaviour
 {
     bool inTrigger = false;
     public GameObject CutsceneIndicator;
+    public GameObject Tony;
+    public GameObject Nathan;
+    public GameObject Mathew;
+    public GameObject Drake;
+    public GameObject Max;
     [SerializeField]
     private GameObject CutsceneDirector;
 
@@ -25,6 +30,11 @@ public class DisplayTimelineCutscene : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.E))
             {
                 CutsceneDirector.SetActive(true);
+                Tony.SetActive(true);
+                Nathan.SetActive(true);
+                Mathew.SetActive(true);
+                Drake.SetActive(true);
+                Max.SetActive(true);
             }
         }
     }
@@ -38,5 +48,11 @@ public class DisplayTimelineCutscene : MonoBehaviour
     {
         inTrigger = false;
         CutsceneIndicator.SetActive(false);
+        CutsceneDirector.SetActive(false);
+        Tony.SetActive(false);
+        Nathan.SetActive(false);
+        Mathew.SetActive(false);
+        Drake.SetActive(false);
+        Max.SetActive(false);
     }
 }

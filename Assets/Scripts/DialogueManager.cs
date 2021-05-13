@@ -59,7 +59,7 @@ public class DialogueManager : MonoBehaviour
     IEnumerator PrintText()
     {
         _isPrinting = true;
-        _textBox.rectTransform.position = new Vector2(_currentSequence._nodes[_currentNode]._dialoguePosition.x, _currentSequence._nodes[_currentNode]._dialoguePosition.y);
+        _textBox.rectTransform.localPosition = new Vector2(_currentSequence._nodes[_currentNode]._dialoguePosition.x, _currentSequence._nodes[_currentNode]._dialoguePosition.y);
         foreach (char character in _currentSequence._nodes[_currentNode]._text)
         {
             _textBox.text += character;
