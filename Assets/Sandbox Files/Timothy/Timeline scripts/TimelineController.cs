@@ -19,6 +19,14 @@ public class TimelineController : MonoBehaviour
     public void PlayFromTimelines(int index)
     {
         TimelineAsset selectedAsset;
-        selectedAsset = timelines[index];
+        if(timelines.Count <= index)
+        {
+            selectedAsset = timelines[timelines.Count - 1];
+        } 
+        else
+        {
+            selectedAsset = timelines[index];
+        }        
+        playableDirectors[0].Play(selectedAsset);
     }
 }
