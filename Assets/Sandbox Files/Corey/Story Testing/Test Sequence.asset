@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 58948e07e7a59e641ab3bf202c5d1a45, type: 3}
-  m_Name: Test Sequence
+  m_Name: 
   m_EditorClassIdentifier: 
   _nodes:
   - {fileID: 11400000, guid: 7160becd2ab949748bf76c9472731c5d, type: 2}
