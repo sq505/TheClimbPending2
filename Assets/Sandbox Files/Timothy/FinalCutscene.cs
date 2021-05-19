@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CutscenesV3 : MonoBehaviour
+public class FinalCutscene : MonoBehaviour
 {
     bool inTrigger = false;
     public GameObject CutsceneIndicator;
-    public GameObject Actors;
+    public GameObject Joe;
+    public GameObject Camera2;
+    public GameObject playerJoe;
     public GameObject Dialogue;
     [SerializeField]
     private GameObject CutsceneDirector;
@@ -25,7 +27,9 @@ public class CutscenesV3 : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.E))
             {
                 CutsceneDirector.SetActive(true);
-                Actors.SetActive(true);
+                Joe.SetActive(true);
+                Camera2.SetActive(true);
+                playerJoe.SetActive(false);
                 Dialogue.SetActive(true);
                 CutsceneIndicator.SetActive(false);
             }
@@ -41,8 +45,5 @@ public class CutscenesV3 : MonoBehaviour
     {
         inTrigger = false;
         CutsceneIndicator.SetActive(false);
-        CutsceneDirector.SetActive(false);
-        Actors.SetActive(false);
-        Dialogue.SetActive(false);
     }
 }

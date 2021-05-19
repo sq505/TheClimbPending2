@@ -29,6 +29,7 @@ public class DisplayText : MonoBehaviour
                     GameManager.MainTextbox.text = messages[currentmessage];
                     currentmessage++;
                     GameManager.MainTextBoxImage.gameObject.SetActive(true);
+                    Light.SetActive(false);
                 }
                 else
                 {
