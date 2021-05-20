@@ -2481,6 +2481,7 @@ MonoBehaviour:
   Actors: {fileID: 557591433}
   Dialogue: {fileID: 2054413176}
   CutsceneDirector: {fileID: 1935971069}
+  Trigger: {fileID: 305193111}
 --- !u!1 &135016378
 GameObject:
   m_ObjectHideFlags: 0
@@ -5044,6 +5045,11 @@ PlayableDirector:
     value: {fileID: 996178706}
   m_ExposedReferences:
     m_References: []
+--- !u!1 &305193111 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5734581804977290979, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+  m_PrefabInstance: {fileID: 1517862069}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &312893596
 GameObject:
   m_ObjectHideFlags: 0
@@ -7440,6 +7446,7 @@ MonoBehaviour:
   Actors: {fileID: 1529918980}
   Dialogue: {fileID: 631198026}
   CutsceneDirector: {fileID: 320993252}
+  Trigger: {fileID: 0}
 --- !u!1 &442454174
 GameObject:
   m_ObjectHideFlags: 0
@@ -7665,7 +7672,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2970727337260886199, guid: 02425b0475659a748a066167c593e2bc, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2970727337260886199, guid: 02425b0475659a748a066167c593e2bc, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -10142,6 +10149,11 @@ Transform:
   m_Father: {fileID: 1530575128}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &630325077 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5734581806009812244, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+  m_PrefabInstance: {fileID: 1517862069}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &631198026
 GameObject:
   m_ObjectHideFlags: 0
@@ -10668,6 +10680,7 @@ MonoBehaviour:
   Actors: {fileID: 734147117}
   Dialogue: {fileID: 249172915}
   CutsceneDirector: {fileID: 771595631}
+  Trigger: {fileID: 0}
 --- !u!4 &677565243 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5734581805973968044, guid: baf42853f58c55840bc175c32fe34185, type: 3}
@@ -11608,6 +11621,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &750720296 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5734581805011496005, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+  m_PrefabInstance: {fileID: 1100591718}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &762338925
 GameObject:
   m_ObjectHideFlags: 0
@@ -12252,6 +12270,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 789409788}
   m_CullTransparentMesh: 0
+--- !u!1 &791436797 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5734581805419118396, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+  m_PrefabInstance: {fileID: 1794714168}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &797616926
 GameObject:
   m_ObjectHideFlags: 0
@@ -12499,6 +12522,7 @@ MonoBehaviour:
   Actors: {fileID: 1264869123}
   Dialogue: {fileID: 1695724294}
   CutsceneDirector: {fileID: 1328837100}
+  Trigger: {fileID: 0}
 --- !u!1 &803661756
 GameObject:
   m_ObjectHideFlags: 0
@@ -13656,7 +13680,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1059647517078888939, guid: 6f84100653667ad49a55fb9df8c65650, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1059647517078888939, guid: 6f84100653667ad49a55fb9df8c65650, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -13900,7 +13924,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1898988263946717982, guid: 1a2014e3999bbf34d89d6c99ecaba774, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 1898988263946717982, guid: 1a2014e3999bbf34d89d6c99ecaba774, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -14861,7 +14885,7 @@ RectTransform:
   - {fileID: 902641826}
   - {fileID: 1005684810}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -15335,7 +15359,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3748499419109995855, guid: cdcbeb47d514bd945a6c49e187e88205, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 3748499419109995855, guid: cdcbeb47d514bd945a6c49e187e88205, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -15942,6 +15966,7 @@ MonoBehaviour:
   Actors: {fileID: 1005177668}
   Dialogue: {fileID: 2146570684}
   CutsceneDirector: {fileID: 304106187}
+  Trigger: {fileID: 0}
 --- !u!1 &1029978224 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7003023852320916157, guid: cdfd0597c1bd9144da6a8293df19a75f, type: 3}
@@ -16906,7 +16931,7 @@ SpriteShapeRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
+  m_DynamicOccludee: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -17325,7 +17350,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5734581805973968044, guid: baf42853f58c55840bc175c32fe34185, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5734581805973968044, guid: baf42853f58c55840bc175c32fe34185, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -19458,7 +19483,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1216901731135872623, guid: b7b8d9339bf692a4da5a593d66ff70b6, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 1216901731135872623, guid: b7b8d9339bf692a4da5a593d66ff70b6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -21774,7 +21799,7 @@ SpriteShapeRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
+  m_DynamicOccludee: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -22679,7 +22704,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1323476880661678819, guid: 47ad0fdc0ac123442aac5beb812b179e, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1323476880661678819, guid: 47ad0fdc0ac123442aac5beb812b179e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -23303,7 +23328,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5734581804167101503, guid: baf42853f58c55840bc175c32fe34185, type: 3}
       propertyPath: m_SortingOrder
-      value: 92
+      value: 93
       objectReference: {fileID: 0}
     - target: {fileID: 5734581804449169183, guid: baf42853f58c55840bc175c32fe34185, type: 3}
       propertyPath: m_SortingOrder
@@ -23391,7 +23416,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5734581805973968044, guid: baf42853f58c55840bc175c32fe34185, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5734581805973968044, guid: baf42853f58c55840bc175c32fe34185, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -24778,7 +24803,7 @@ SpriteShapeRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
+  m_DynamicOccludee: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -25711,7 +25736,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1675021669
 GameObject:
@@ -26571,7 +26596,7 @@ SpriteShapeRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
+  m_DynamicOccludee: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -27304,6 +27329,10 @@ PrefabInstance:
       propertyPath: m_ShapeTexture
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5734581805891466647, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5734581805898599699, guid: baf42853f58c55840bc175c32fe34185, type: 3}
       propertyPath: m_ShapeTexture
       value: 
@@ -27342,7 +27371,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5734581805973968044, guid: baf42853f58c55840bc175c32fe34185, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5734581805973968044, guid: baf42853f58c55840bc175c32fe34185, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -27491,7 +27520,7 @@ SpriteShapeRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
+  m_DynamicOccludee: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -28132,7 +28161,7 @@ SpriteShapeRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
+  m_DynamicOccludee: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -28553,6 +28582,7 @@ MonoBehaviour:
   Actors: {fileID: 1434243550}
   Dialogue: {fileID: 1689166709}
   CutsceneDirector: {fileID: 855742845}
+  Trigger: {fileID: 791436797}
 --- !u!1 &1845631057
 GameObject:
   m_ObjectHideFlags: 0
@@ -29918,7 +29948,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3560599168047899962, guid: cdfd0597c1bd9144da6a8293df19a75f, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 3560599168047899962, guid: cdfd0597c1bd9144da6a8293df19a75f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -30296,7 +30326,7 @@ SpriteShapeRenderer:
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
+  m_DynamicOccludee: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -31372,6 +31402,7 @@ MonoBehaviour:
   Actors: {fileID: 629752956}
   Dialogue: {fileID: 427875121}
   CutsceneDirector: {fileID: 263795778}
+  Trigger: {fileID: 750720296}
 --- !u!1 &2075981499
 GameObject:
   m_ObjectHideFlags: 0
@@ -31922,6 +31953,7 @@ MonoBehaviour:
   Actors: {fileID: 1275337306}
   Dialogue: {fileID: 779975951}
   CutsceneDirector: {fileID: 1451440902}
+  Trigger: {fileID: 630325077}
 --- !u!1 &2096715060
 GameObject:
   m_ObjectHideFlags: 0

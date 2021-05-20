@@ -10,11 +10,13 @@ public class CutscenesV3 : MonoBehaviour
     public GameObject Dialogue;
     [SerializeField]
     private GameObject CutsceneDirector;
+    public GameObject Trigger;
 
     // Start is called before the first frame update
     void Start()
     {
         CutsceneIndicator.SetActive(false);
+        Trigger.SetActive(false);
     }
 
     // Update is called once per frame
@@ -28,6 +30,7 @@ public class CutscenesV3 : MonoBehaviour
                 Actors.SetActive(true);
                 Dialogue.SetActive(true);
                 CutsceneIndicator.SetActive(false);
+                Trigger.SetActive(true);
             }
         }
     }
