@@ -50,5 +50,6 @@ public class DisplayText : MonoBehaviour
     {
         inTrigger = false;
         Light.SetActive(false);
+        GameManager.MainTextBoxImage.gameObject.SetActive(false);
     }
 }
