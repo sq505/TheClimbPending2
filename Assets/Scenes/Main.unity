@@ -7644,11 +7644,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2970727337260886199, guid: 02425b0475659a748a066167c593e2bc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -30.4
+      value: -46.8
       objectReference: {fileID: 0}
     - target: {fileID: 2970727337260886199, guid: 02425b0475659a748a066167c593e2bc, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -12.8
+      value: -30.4
       objectReference: {fileID: 0}
     - target: {fileID: 2970727337260886199, guid: 02425b0475659a748a066167c593e2bc, type: 3}
       propertyPath: m_LocalPosition.z
@@ -17256,6 +17256,30 @@ PrefabInstance:
       propertyPath: m_ShapeTexture
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5734581804044700773, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Center.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581804044700773, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Center.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581804044700773, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Extent.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581804044700773, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Extent.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581804044700774, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_SpriteShape
+      value: 
+      objectReference: {fileID: 11400000, guid: ddca041589ddaae4db6831ea382bb25e, type: 2}
+    - target: {fileID: 5734581804044700775, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5734581804167101503, guid: baf42853f58c55840bc175c32fe34185, type: 3}
       propertyPath: m_SortingOrder
       value: 84
@@ -17272,6 +17296,22 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: -51
       objectReference: {fileID: 0}
+    - target: {fileID: 5734581804574155706, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Center.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581804574155706, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Center.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581804574155706, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Extent.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581804574155706, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Extent.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5734581804618210481, guid: baf42853f58c55840bc175c32fe34185, type: 3}
       propertyPath: m_SortingOrder
       value: 75
@@ -17284,6 +17324,26 @@ PrefabInstance:
       propertyPath: m_ShapeTexture
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5734581804662689283, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Center.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581804662689283, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Center.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581804662689283, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Extent.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581804662689283, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Extent.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581804662689308, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_SpriteShape
+      value: 
+      objectReference: {fileID: 11400000, guid: ddca041589ddaae4db6831ea382bb25e, type: 2}
     - target: {fileID: 5734581804834336239, guid: baf42853f58c55840bc175c32fe34185, type: 3}
       propertyPath: m_ShapeTexture
       value: 
@@ -18297,6 +18357,11 @@ SpriteShapeRenderer:
   m_LocalAABB:
     m_Center: {x: 0, y: -0.00000023841858, z: 0}
     m_Extent: {x: 2.0000002, y: 2, z: 0}
+--- !u!1 &1170883233 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5734581804619162563, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+  m_PrefabInstance: {fileID: 1794714168}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1175819380
 GameObject:
   m_ObjectHideFlags: 0
@@ -23326,6 +23391,26 @@ PrefabInstance:
       propertyPath: m_ShapeTexture
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5734581804044700773, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Center.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581804044700773, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Center.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581804044700773, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Extent.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581804044700773, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Extent.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581804044700774, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_SpriteShape
+      value: 
+      objectReference: {fileID: 11400000, guid: ddca041589ddaae4db6831ea382bb25e, type: 2}
     - target: {fileID: 5734581804167101503, guid: baf42853f58c55840bc175c32fe34185, type: 3}
       propertyPath: m_SortingOrder
       value: 93
@@ -23342,17 +23427,97 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: -51
       objectReference: {fileID: 0}
+    - target: {fileID: 5734581804574155706, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Center.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581804574155706, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Center.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581804574155706, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Extent.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581804574155706, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Extent.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581804619162560, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_SpriteShape
+      value: 
+      objectReference: {fileID: 11400000, guid: ddca041589ddaae4db6831ea382bb25e, type: 2}
     - target: {fileID: 5734581804619162567, guid: baf42853f58c55840bc175c32fe34185, type: 3}
       propertyPath: m_ShapeTexture
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581804619162567, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Center.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581804619162567, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Center.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581804619162567, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Extent.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581804619162567, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Extent.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581804662689282, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5734581804662689283, guid: baf42853f58c55840bc175c32fe34185, type: 3}
       propertyPath: m_ShapeTexture
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5734581804662689283, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Center.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581804662689283, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Center.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581804662689283, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Extent.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581804662689283, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Extent.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581804662689308, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_SpriteShape
+      value: 
+      objectReference: {fileID: 11400000, guid: ddca041589ddaae4db6831ea382bb25e, type: 2}
+    - target: {fileID: 5734581804834336232, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_SpriteShape
+      value: 
+      objectReference: {fileID: 11400000, guid: ddca041589ddaae4db6831ea382bb25e, type: 2}
     - target: {fileID: 5734581804834336239, guid: baf42853f58c55840bc175c32fe34185, type: 3}
       propertyPath: m_ShapeTexture
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581804834336239, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Center.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581804834336239, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Center.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581804834336239, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Extent.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581804834336239, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Extent.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5734581804904043288, guid: baf42853f58c55840bc175c32fe34185, type: 3}
       propertyPath: m_SortingOrder
@@ -23378,14 +23543,78 @@ PrefabInstance:
       propertyPath: m_ShapeTexture
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5734581805891466645, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Center.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581805891466645, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Center.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581805891466645, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Extent.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581805891466645, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Extent.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581805891466646, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_SpriteShape
+      value: 
+      objectReference: {fileID: 11400000, guid: ddca041589ddaae4db6831ea382bb25e, type: 2}
     - target: {fileID: 5734581805898599699, guid: baf42853f58c55840bc175c32fe34185, type: 3}
       propertyPath: m_ShapeTexture
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581805898599699, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Center.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581805898599699, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Center.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581805898599699, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Extent.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581805898599699, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Extent.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581805898599788, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_SpriteShape
+      value: 
+      objectReference: {fileID: 11400000, guid: ddca041589ddaae4db6831ea382bb25e, type: 2}
+    - target: {fileID: 5734581805902486104, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5734581805902486110, guid: baf42853f58c55840bc175c32fe34185, type: 3}
       propertyPath: m_ShapeTexture
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5734581805902486110, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Center.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581805902486110, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Center.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581805902486110, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Extent.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581805902486110, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Extent.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581805902486111, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_SpriteShape
+      value: 
+      objectReference: {fileID: 11400000, guid: ddca041589ddaae4db6831ea382bb25e, type: 2}
     - target: {fileID: 5734581805973968044, guid: baf42853f58c55840bc175c32fe34185, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.3075
@@ -27309,26 +27538,182 @@ PrefabInstance:
       propertyPath: m_ShapeTexture
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5734581804044700773, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Center.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581804044700773, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Center.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581804044700773, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Extent.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581804044700773, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Extent.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581804044700774, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_SpriteShape
+      value: 
+      objectReference: {fileID: 11400000, guid: ddca041589ddaae4db6831ea382bb25e, type: 2}
+    - target: {fileID: 5734581804167101503, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_SortingOrder
+      value: 101
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581804235435682, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: Stair
+      value: 
+      objectReference: {fileID: 1170883233}
+    - target: {fileID: 5734581804449169183, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_SortingOrder
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 5734581804574155706, guid: baf42853f58c55840bc175c32fe34185, type: 3}
       propertyPath: m_ShapeTexture
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5734581804574155706, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Center.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581804574155706, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Center.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581804574155706, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Extent.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581804574155706, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Extent.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581804574155707, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_SpriteShape
+      value: 
+      objectReference: {fileID: 11400000, guid: ddca041589ddaae4db6831ea382bb25e, type: 2}
+    - target: {fileID: 5734581804618210482, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_SpriteShape
+      value: 
+      objectReference: {fileID: 11400000, guid: ddca041589ddaae4db6831ea382bb25e, type: 2}
+    - target: {fileID: 5734581804619162560, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_SpriteShape
+      value: 
+      objectReference: {fileID: 11400000, guid: ddca041589ddaae4db6831ea382bb25e, type: 2}
     - target: {fileID: 5734581804619162567, guid: baf42853f58c55840bc175c32fe34185, type: 3}
       propertyPath: m_ShapeTexture
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581804619162567, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Center.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581804619162567, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Center.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581804619162567, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Extent.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581804619162567, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Extent.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5734581804662689283, guid: baf42853f58c55840bc175c32fe34185, type: 3}
       propertyPath: m_ShapeTexture
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5734581804662689283, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Center.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581804662689283, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Center.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581804662689283, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Extent.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581804662689283, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Extent.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581804662689308, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_SpriteShape
+      value: 
+      objectReference: {fileID: 11400000, guid: ddca041589ddaae4db6831ea382bb25e, type: 2}
+    - target: {fileID: 5734581804834336232, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_SpriteShape
+      value: 
+      objectReference: {fileID: 11400000, guid: ddca041589ddaae4db6831ea382bb25e, type: 2}
     - target: {fileID: 5734581804834336239, guid: baf42853f58c55840bc175c32fe34185, type: 3}
       propertyPath: m_ShapeTexture
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581804834336239, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Center.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581804834336239, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Center.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581804834336239, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Extent.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581804834336239, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Extent.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581804904043288, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_SortingOrder
+      value: 98
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581805023547790, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_SortingOrder
+      value: 94
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581805486320252, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_SortingOrder
+      value: 95
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581805502390068, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_SortingOrder
+      value: 99
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581805533170743, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_SortingOrder
+      value: 97
       objectReference: {fileID: 0}
     - target: {fileID: 5734581805891466645, guid: baf42853f58c55840bc175c32fe34185, type: 3}
       propertyPath: m_ShapeTexture
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5734581805891466645, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Center.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581805891466645, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Center.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581805891466645, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Extent.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581805891466645, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Extent.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581805891466646, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_SpriteShape
+      value: 
+      objectReference: {fileID: 11400000, guid: ddca041589ddaae4db6831ea382bb25e, type: 2}
     - target: {fileID: 5734581805891466647, guid: baf42853f58c55840bc175c32fe34185, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -27337,10 +27722,50 @@ PrefabInstance:
       propertyPath: m_ShapeTexture
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5734581805898599699, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Center.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581805898599699, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Center.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581805898599699, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Extent.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581805898599699, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Extent.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581805898599788, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_SpriteShape
+      value: 
+      objectReference: {fileID: 11400000, guid: ddca041589ddaae4db6831ea382bb25e, type: 2}
     - target: {fileID: 5734581805902486110, guid: baf42853f58c55840bc175c32fe34185, type: 3}
       propertyPath: m_ShapeTexture
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 5734581805902486110, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Center.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581805902486110, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Center.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581805902486110, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Extent.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581805902486110, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_LocalAABB.m_Extent.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581805902486111, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_SpriteShape
+      value: 
+      objectReference: {fileID: 11400000, guid: ddca041589ddaae4db6831ea382bb25e, type: 2}
     - target: {fileID: 5734581805973968044, guid: baf42853f58c55840bc175c32fe34185, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.3075
@@ -27392,6 +27817,10 @@ PrefabInstance:
     - target: {fileID: 5734581805973968045, guid: baf42853f58c55840bc175c32fe34185, type: 3}
       propertyPath: m_Name
       value: Stairs
+      objectReference: {fileID: 0}
+    - target: {fileID: 5734581806004077280, guid: baf42853f58c55840bc175c32fe34185, type: 3}
+      propertyPath: m_SortingOrder
+      value: 96
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: baf42853f58c55840bc175c32fe34185, type: 3}
